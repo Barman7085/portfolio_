@@ -1,0 +1,30 @@
+body{
+    background-color: #808080;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: space-around; */
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+a {
+    height: 100px;
+    width: 100px;
+    background-color: f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 110px;
+    margin: 10px;
+    box-shadow: 1px 2px 3px 4px #dcdde1;
+}
+a i{
+    transition: all 0.3s linear;
+    
+}
+
+a:hover{
+    transform: scale(1.4);
+}
